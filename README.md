@@ -35,13 +35,13 @@ This project uses three technologies to help data persist offline: idb.js (to cr
 ## Tests
 Test functioning and persistence in Chrome Dev Tools:
 
-    - Watch for "Service Worker registered successfully." in the console.
+- Watch for "Service Worker registered successfully." in the console.
 
-    - Emulate and offline state under the Network tab and refreshing the page to check the page load
+- Emulate and offline state under the Network tab and refreshing the page to check the page load
 
-    - Entering a transaction while offline. Switch to online to see the alert message: "All saved transactions have been submitted!"
-    
-    - Check IndexedDB and Cache Storage files for saved data during tests.
+- Entering a transaction while offline. Switch to online to see the alert message: "All saved transactions have been submitted!"
+
+- Check IndexedDB and Cache Storage files for saved data during tests.
 
 ## Questions
 Please feel free to contact me, webprinc3ss at Github: https://github.com/webprinc3ss 
